@@ -1,6 +1,6 @@
-name: emhrs-cron
-description: EMHRS cron jobs
-home: https://github.com/hmcts/emhrs-cron
+name: dmstore-cron
+description: DMStore cron jobs
+home: https://github.com/hmcts/dmstore-cron
 apiVersion: v2
 appVersion: "1.0"
 version: 0.0.2
