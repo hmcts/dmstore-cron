@@ -3,7 +3,7 @@ description: DMStore cron jobs
 home: https://github.com/hmcts/dmstore-cron
 apiVersion: v2
 appVersion: "1.0"
-version: 0.0.2
+version: 0.0.3
 maintainers:
   - name: HMCTS Evidence Management team
 dependencies:
