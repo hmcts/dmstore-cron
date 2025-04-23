@@ -69,7 +69,7 @@ job:
     # Case Document Deletion Job Schedule
     CASE_DOCUMENTS_DELETION_JOB_SCHEDULE: '0 0 31 2 *'  # is a mechanism to not run the job at all (31st feb is a nonfiring date)
     CASE_DOCUMENTS_DELETION_LIMIT: 10
-  schedule: "0 0/10 * * *"
+  schedule: "0 0 31 2 *"
   concurrencyPolicy: Forbid
 global:
   jobKind: CronJob
