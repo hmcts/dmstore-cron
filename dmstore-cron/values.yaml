@@ -1,6 +1,6 @@
 job:
   disableActiveClusterCheck: true
-  image: 'hmctspublic.azurecr.io/dm/store:latest'
+  image: 'hmctsprod.azurecr.io/dm/store:latest'
   aadIdentityName: dm-store
   keyVaults:
     dm:
