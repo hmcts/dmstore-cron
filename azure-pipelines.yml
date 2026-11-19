@@ -1,12 +1,6 @@
 name: dmstore-cron pipeline
-trigger:
-  branches:
-    include:
-      - refs/tags/*
-pr:
-  branches:
-    include:
-      - master
+trigger: none
+pr: none
 resources:
   repositories:
     - repository: cnp-azuredevops-libraries
